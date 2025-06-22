@@ -40,18 +40,18 @@ const Achievements = () => {
   const certificates = [
     {
       id: 1,
-      title: "MERN Stack Internship",
+      title: "AI & ML Internship",
       file: "/assets/certificates/mern.pdf",
     },
     {
       id: 2,
-      title: "AWS Cloud Basics",
-      file: "/assets/certificates/aws.pdf",
+      title: "Web development course",
+      file: "/assets/certificates/Web_D_course.pdf",
     },
     {
       id: 3,
-      title: "C++ Programming Fundamentals",
-      file: "/assets/certificates/cpp_basics.pdf",
+      title: "Frontend development course",
+      file: "/assets/certificates/frontend_web_D_course.pdf",
     },
   ];
 

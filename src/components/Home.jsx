@@ -1,10 +1,10 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom'; // 👈 import Link
 
 const Home = () => {
   return (
     <section
-     id="home"
+      id="home"
       className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden"
       style={{
         background: 'radial-gradient(circle at 30% 30%, #0f1c2e, #020617)',
@@ -29,12 +29,12 @@ const Home = () => {
           </p>
 
           <div className="mt-8 flex justify-center md:justify-start gap-4">
-            <a
-              href="#projects"
+            <Link
+              to="/projects" // 👈 change from href="#projects"
               className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition"
             >
               View Projects
-            </a>
+            </Link>
             <a
               href="#contact"
               className="px-6 py-3 border border-cyan-400 text-cyan-400 font-semibold rounded-full hover:bg-cyan-500 hover:text-black transition"
@@ -59,4 +59,3 @@ const Home = () => {
 };
 
 export default Home;
-
